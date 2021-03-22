@@ -8,8 +8,8 @@ const Footer = () => {
           <li>Mac</li>
           <li>iPad</li>
           <li>iPhone</li>
-          <li>iPhone12</li>
-          <li></li>
+          <li>Watch</li>
+          <li>TV</li>
           <li></li>
           <li></li>
           <li></li>
