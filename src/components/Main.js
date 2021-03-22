@@ -1,5 +1,4 @@
 import React from 'react';
-
 const Main = () => {
     return (
         <div className="Main">
@@ -12,8 +11,8 @@ const Main = () => {
                         Buy directly from Apple with special carrier offers.</p>
                     </div>
                     <div className="cta">
-                        <a href="#" className="cta-link">Learn more</a>
-                        <a href="#" className="cta-link">Buy</a>
+                        <a href="#" className="cta-link">Learn more {'>'}</a>
+                        <a href="#" className="cta-link">Buy {'>'}</a>
                     </div>
                 </div>
             </section>
@@ -27,20 +26,20 @@ const Main = () => {
                         Buy directly from Apple with special carrier offers.</p>
                     </div>
                     <div className="cta">
-                        <a href="#" className="cta-link cta-link-darker">Learn more</a>
-                        <a href="#" className="cta-link cta-link-darker">Buy</a>
+                        <a href="#" className="cta-link cta-link-darker">Learn more {'>'}</a>
+                        <a href="#" className="cta-link cta-link-darker">Buy {'>'}</a>
                     </div>
                 </div>
             </section>
             <section className="hero iPad-Air">
                 <div className="container">
-                    <div className="title title-dark">
+                    <div className="title title-light">
                         <h2 className="title-heading">iPad Air</h2>
                         <h3 className="title-sub-heading">Powerful. Colorful. Wonderful</h3>
                     </div>
                     <div className="cta">
-                        <a href="#" className="cta-link cta-link-darker">Learn more</a>
-                        <a href="#" className="cta-link cta-link-darker">Buy</a>
+                        <a href="#" className="cta-link cta-link-darker">Learn more {'>'}</a>
+                        <a href="#" className="cta-link cta-link-darker">Buy {'>'}</a>
                     </div>
                 </div>
             </section>
@@ -55,8 +54,8 @@ const Main = () => {
                                     <h3 className="title-sub-heading">The future of health is on your wrist.</h3>
                                 </div>
                                 <div className="cta">
-                                    <a href="#" className="cta-link">Learn more</a>
-                                    <a href="#" className="cta-link">Buy</a>
+                                    <a href="#" className="cta-link">Learn more {'>'}</a>
+                                    <a href="#" className="cta-link">Buy {'>'}</a>
                                 </div>
                             </div>
                         </section>
@@ -69,8 +68,8 @@ const Main = () => {
                                     <h3 className="title-sub-heading">A new fitness experience for everyone.Powered by Apple Watch.</h3>
                                 </div>
                                 <div className="cta">
-                                    <a href="#" className="cta-link">Learn more</a>
-                                    <a href="#" className="cta-link">Try it free</a>
+                                    <a href="#" className="cta-link">Learn more {'>'}</a>
+                                    <a href="#" className="cta-link">Try it free ↗</a>
                                 </div>
                             </div>
                         </section>
