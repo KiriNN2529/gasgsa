@@ -3,11 +3,6 @@ a{
     text-decoration: none;
 }
 
-.container{
-    max-width: 1600px;
-    margin: 0 auto;
-    padding: 0 36px;
-}
 
 .iphone-12{
     background: url("../assets/images/iphone_12_us__fo0stbby242m_largetall.jpg");
@@ -63,7 +58,6 @@ display: inline-block;
 
 .iphone-12-pro{
     background: url("../assets/images/iphone_12_pro_us__e5oyysg4k0ya_large.jpg");
-
 }
 
 .title-light{
@@ -92,7 +86,7 @@ width: 100%;
 }
 
 .hero{
-    height: 1110px;
+    height: 600px;
     background-size: auto 1180px;
     background-position: center;
     background-repeat: no-repeat;

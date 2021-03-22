@@ -23,7 +23,7 @@ const Nav = () => {
                             <a href="#" className="nav-link nav-link-bag"></a>
                         </li>
                     </ul>
-                    <ul className="nav-list">
+                    <ul className="nav-list nav-list-larger">
                         <li className="nav-item niv-item-hidden">
                             <a href="#" className="nav-link nav-link-apple"></a>
                         </li>
