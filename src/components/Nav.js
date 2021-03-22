@@ -7,7 +7,7 @@ import React from 'react';
 const Nav = () => {
     return (
         <div className="Nav">
-            <div className="container">
+            <div className="container-xl">
                 <nav className="navy">
                     <ul className="nav-list nav-list-mobile">
                         <li className="nav-item">

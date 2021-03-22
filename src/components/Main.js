@@ -3,7 +3,7 @@ const Main = () => {
     return (
         <div className="Main">
             <section className="hero iphone-12">
-                <div className="container">
+                <div className="container-xl">
                     <div className="title">
                         <h2 className="title-heading">iPhone 12</h2>
                         <h3 className="title-sub-heading">Blast past fast.</h3>
@@ -18,7 +18,7 @@ const Main = () => {
             </section>
 
             <section className="hero iphone-12-pro">
-                <div className="container">
+                <div className="container-xl">
                     <div className="title title-dark">
                         <h2 className="title-heading">iPhone 12 Pro</h2>
                         <h3 className="title-sub-heading">It's a leap year.</h3>
@@ -32,7 +32,7 @@ const Main = () => {
                 </div>
             </section>
             <section className="hero iPad-Air">
-                <div className="container">
+                <div className="container-xl">
                     <div className="title title-light">
                         <h2 className="title-heading">iPad Air</h2>
                         <h3 className="title-sub-heading">Powerful. Colorful. Wonderful</h3>
@@ -48,7 +48,7 @@ const Main = () => {
                 <div className="row">
                     <div className="col-md">
                         <section className="hero watch">
-                            <div className="container">
+                            <div className="container-xl">
                                 <div className="title">
                                     <h2 className="title-heading"></h2>
                                     <h3 className="title-sub-heading">The future of health is on your wrist.</h3>
@@ -62,7 +62,7 @@ const Main = () => {
                     </div>
                     <div className="col-md">
                         <section className="hero fitness">
-                            <div className="container">
+                            <div className="container-xl">
                                 <div className="title">
                                     <h2 className="title-heading"></h2>
                                     <h3 className="title-sub-heading">A new fitness experience for everyone.Powered by Apple Watch.</h3>
@@ -78,7 +78,7 @@ const Main = () => {
                 <div className="row">
                     <div className="col-md">
                         <section className="hero airpods">
-                            <div className="container">
+                            <div className="container-xl">
                                 <div className="title">
                                     <h2 className="title-heading"></h2>
                                     <h3 className="title-sub-heading">with Active Noise Cancellation.</h3>
@@ -92,7 +92,7 @@ const Main = () => {
                     </div>
                     <div className="col-md">
                         <section className="hero one">
-                            <div className="container">
+                            <div className="container-xl">
                                 <div className="title">
                                     <h2 className="title-heading"></h2>
                                     <h3 className="title-sub-heading">Bundle up to six Apple services. And enjoy more for less.</h3>
@@ -108,7 +108,7 @@ const Main = () => {
                 <div className="row">
                     <div className="col-md">
                         <section className="hero card">
-                            <div className="container">
+                            <div className="container-xl">
                                 <div className="title">
                                     <h2 className="title-heading"></h2>
                                     <h3 className="title-sub-heading">Save 6% on Apple products with a new Apple Card ━ all March long.*</h3>
@@ -123,7 +123,7 @@ const Main = () => {
                     </div>
                     <div className="col-md">
                         <section className="hero films">
-                            <div className="container">
+                            <div className="container-xl">
                                 <div className="title">
                                     <h2 className="title-heading"></h2>
                                     <h3 className="title-sub-heading">.</h3>
@@ -136,7 +136,7 @@ const Main = () => {
                     </div>
                 </div>
             </div>
-            <div className="container">
+            <div className="container-xl">
                 <section className="main-info">
                     <span>
                         1. Price includes a $30 AT&T, T-Mobile, Sprint, or Verizon discount. Requires activation with carrier. Monthly pricing: Available to qualified customers and requires 0% APR, 24-month installment loan with Citizens One or Apple Card Monthly Installments and iPhone activation with AT&T, Sprint, T-Mobile, or Verizon for purchases in an Apple Store. Taxes and shipping not included. Additional Apple Card Monthly Installments and iPhone Payments terms apply.

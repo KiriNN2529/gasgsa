@@ -3,11 +3,6 @@ a{
     text-decoration: none;
 }
 
-.container{
-    max-width: 1600px;
-    margin: 0 auto;
-    padding: 0 36px;
-}
 
 .iphone-12{
     background: url("../assets/images/iphone_12_us__fo0stbby242m_largetall.jpg");
@@ -20,6 +15,10 @@ a{
     color: #1d1d1f;
     text-align: center;
     padding-top: 90px;
+}
+
+.title-dark{
+    color: #fff;
 }
 
 .title-heading{
@@ -88,7 +87,8 @@ display: inline-block;
 }
 
 .iPad-Air {
-width: 100%;
+    width: 100%;
+    background: url("../assets/images/hero__dvsxv8smkkgi_mediumtall.jpg");
 }
 
 .hero{
@@ -104,3 +104,8 @@ width: 100%;
     border-top: none;
 }
 
+@media screen and (max-width: 1068px){
+    .iphone-12{
+        background: url
+    }
+}
