@@ -35,11 +35,11 @@ a{
     font-weight: 400; 
 }
 
-.title-price{
-    font-size: 27px;
-    color: #888;
-    margin-top: 11px;
-}
+// .title-price{
+//     font-size: 27px;
+//     color: #888;
+//     margin-top: 11px;
+// }
 
 .cta{
     text-align: center;
@@ -66,8 +66,29 @@ display: inline-block;
 
 }
 
-.title-dark{
-    color: #fff;
+.title-light{
+    color: #1d1d1f;
+}
+
+.cta-link-darker{
+    color: #06c;
+}
+
+.cta-link-darker:hover{
+    border-bottom-color: #06c;
+}
+
+.title-info{
+    color: #86868b;
+    max-width: 500px;
+    display: flex;
+    justify-content: center;
+    margin: 10px auto;
+    font-size: 20px;
+}
+
+.iPad-Air {
+width: 100%;
 }
 
 .hero{
@@ -82,3 +103,4 @@ display: inline-block;
 .iphone-12{
     border-top: none;
 }
+
