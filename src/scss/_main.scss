@@ -169,38 +169,41 @@ width: 100%;
 
 .ipad__air {
     position: relative;
-    height: 500px;
     img {
-        height: 500px;
+        height: 600px;
     }
 }
 
 .title-offerSection {
     position: absolute;
     top: 20px;
-    left: 0;
-    right: 0;
-    text-align: center;
 }
 
-.watch {
-    position: relative; 
+.title-light {
+    color: #ffffff;
+}
+
+.fitness{
+    position: relative;
     height: 500px;
-    background-color: #000000;
+    
+    
 }
 
-.watch-img {
-    width: 200px;
-    position: absolute;
+.img-fitness{
+    margin-top: 70px;
+    top: 0;
     bottom: 0;
     left: 0;
     right: 0;
-    margin: 0 auto;
 }
 
-.watch-logo {
-    width: 100px;
+.img-fitness-logo{
+    position: absolute;
+    top: 20px;
     margin: 0 auto;
+    left: 0;
+    right: 0;
 }
 
 .hero{
@@ -213,9 +216,6 @@ width: 100%;
     border-top: none;
 }
 
-.title-light {
-    color: #ffffff;
-}
 
 // FOOTER 
 .main-info {
