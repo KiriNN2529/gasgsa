@@ -1,4 +1,8 @@
 import React from 'react';
+import iPad_Air from '../assets/images/hero__dvsxv8smkkgi_largetall.jpg';
+import Watch from '../assets/images/watch.jpg';
+import Watch_logo from '../assets/logo/watch-6.png';
+
 const Main = () => {
   return (
     <div className="Main">
@@ -56,55 +60,38 @@ const Main = () => {
           </div>
         </div>
       </section>
-      <section className="hero iPad-Air">
-        <div className="container-xl">
-          <div className="title title-light">
-            <h2 className="title-heading">iPad Air</h2>
-            <h3 className="title-sub-heading">Powerful. Colorful. Wonderful</h3>
-          </div>
-          <div className="cta">
-            <a href="#" className="cta-link cta-link-darker">
-              Learn more
-            </a>
-            <a href="#" className="cta-link cta-link-darker">
-              Buy
-            </a>
-          </div>
-        </div>
-      </section>
 
-      <div className="container-xl">
+      <div className="container-fluid">
         <div className="row">
-          <div className="col-md">
-            <section className="hero watch">
-              <div className="container">
-                <div className="title">
-                  <h2 className="title-heading"></h2>
-                  <h3 className="title-sub-heading">
-                    The future of health is on your wrist.
-                  </h3>
-                </div>
-                <div className="cta">
-                  <a href="#" className="cta-link">
-                    Learn more
-                  </a>
-                  <a href="#" className="cta-link">
-                    Buy
-                  </a>
-                </div>
+          <div className="col-md ipad__air p-0">
+            <img src={iPad_Air} alt="ipad-air" />
+            <div className="title-offerSection">
+              <h2 className="title__heading-offer">iPad Air</h2>
+              <h3 className="title__subheading-offer">
+                Powerful. Colorful. Wonderful
+              </h3>
+              <div className="cta">
+                <a href="#" className="cta-link cta-link-darker">
+                  Learn more
+                </a>
+                <a href="#" className="cta-link cta-link-darker">
+                  Buy
+                </a>
               </div>
-            </section>
+            </div>
           </div>
-          <div className="col-md">
-            <section className="hero fitness">
-              <div className="container-xl">
-                <div className="title">
-                  <h2 className="title-heading"></h2>
-                  <h3 className="title-sub-heading">
-                    A new fitness experience for everyone.Powered by Apple
-                    Watch.
-                  </h3>
-                </div>
+          <div className="col-md p-0">
+            <div className="hero fitness watch">
+              <div className="watch-img">
+                <img src={Watch} alt="watch-6" />
+              </div>
+              <div className="title-offerSection">
+                <h2 className="title__heading-offer">
+                  <img className="watch-logo" src={Watch_logo} alt="watch-6" />
+                </h2>
+                <h3 className="title__subheading-offer-watch">
+                  A new fitness experience for everyone.Powered by Apple Watch.
+                </h3>
                 <div className="cta">
                   <a href="#" className="cta-link">
                     Learn more
@@ -114,13 +101,13 @@ const Main = () => {
                   </a>
                 </div>
               </div>
-            </section>
+            </div>
           </div>
         </div>
         <div className="row">
           <div className="col-md">
             <section className="hero airpods">
-              <div className="container-xl">
+              <div className="">
                 <div className="title">
                   <h2 className="title-heading"></h2>
                   <h3 className="title-sub-heading">
@@ -140,7 +127,7 @@ const Main = () => {
           </div>
           <div className="col-md">
             <section className="hero one">
-              <div className="container-xl">
+              <div className="">
                 <div className="title">
                   <h2 className="title-heading"></h2>
                   <h3 className="title-sub-heading">

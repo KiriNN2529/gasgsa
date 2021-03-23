@@ -72,6 +72,18 @@ a{
     margin-bottom: 0;
 }
 
+.title__heading-offer {
+    font-size: 25px;
+}
+
+.title__subheading-offer {
+    font-size: 20px;
+}
+.title__subheading-offer-watch {
+    color: #ffffff;
+    font-size: 20px;
+}
+
 .title-sub-heading{
     font-size: 28px;
     font-weight: 400;
@@ -121,6 +133,7 @@ position: relative;
 .iphone-12-pro{
     background: url("../assets/images/iphone_12_pro_us__e5oyysg4k0ya_large.jpg");
     height: 500px;
+    border-bottom: 10px solid #ffffff;
 }
 
 .title-light{
@@ -148,6 +161,42 @@ position: relative;
 width: 100%;
 }
 
+.ipad__air {
+    position: relative;
+    height: 500px;
+    img {
+        height: 500px;
+    }
+}
+
+.title-offerSection {
+    position: absolute;
+    top: 20px;
+    left: 0;
+    right: 0;
+    text-align: center;
+}
+
+.watch {
+    position: relative; 
+    height: 500px;
+    background-color: #000000;
+}
+
+.watch-img {
+    width: 200px;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+}
+
+.watch-logo {
+    width: 100px;
+    margin: 0 auto;
+}
+
 .hero{
     background-position: center; 
     background-repeat: no-repeat;
@@ -161,4 +210,3 @@ width: 100%;
 .title-light {
     color: #ffffff;
 }
-
