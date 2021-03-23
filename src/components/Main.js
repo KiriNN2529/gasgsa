@@ -5,6 +5,11 @@ import Watch_logo from '../assets/logo/watch-6.png';
 import Fitness from "../assets/images/fitness.jpg";
 import Fitness_logo from "../assets/logo/Fitness+.png";
 import Airpods from "../assets/images/airpods.jpg";
+import Airpods_logo from "../assets/logo/airpods pro.png";
+import Music from "../assets/images/musicdance.jpg";
+import Music_logo from "../assets/logo/applemusic.png";
+import Calls from "../assets/images/tvcalls.jpg";
+import Calls_logo from "../assets/logo/tvplus.png";
 
 const Main = () => {
   return (
@@ -131,14 +136,14 @@ const Main = () => {
                 <img src={Airpods} alt="watch-6"  className="action_img"/>
               <div className="title-offerSection">
                 <h2 className="title__heading-offer">
-                  <img className="watch-logo" src={Watch_logo} alt="watch-6" />
+                  <img className="airpods-logo" src={Airpods_logo} alt="airpods-6" />
                 </h2>
-                <h3 className="title__subheading-offer-watch">
-                  The future of health is on your wrist.
+                <h3 className="title__subheading-offer-airpods">
+                  with Active Noise Cancellation.
                 </h3>
                 <div className="cta">
                   <a href="#" className="cta-link">
-                    Learn more
+                    Watch the film
                   </a>
                   <a href="#" className="cta-link">
                     Buy
@@ -149,41 +154,36 @@ const Main = () => {
           </div>
         </div>
         <div className="row margin-b-10">
-          <div className="col-md  margin-r-10 ipad__air p-0 container-col">
-            <img src={iPad_Air} alt="ipad-air" />
+          <div className="col-md  margin-r-10 p-0 container-col">
+            <img src={Music} alt="music" className="music_img"/>
             <div className="title-offerSection">
-              <h2 className="title__heading-offer">iPad Air</h2>
-              <h3 className="title__subheading-offer">
-                Powerful. Colorful. Wonderful
+              <h2 className="title__heading-offer">
+              <img src={Music_logo} alt="music-logo"  className="music_logo"/>
+              </h2>
+              <h3 className="title__subheading-offer women_title">
+                Women's History Month
               </h3>
+              <p><b>Celebrate women of many firsts.</b></p>
               <div className="cta">
                 <a href="#" className="cta-link cta-link-darker">
-                  Learn more
-                </a>
-                <a href="#" className="cta-link cta-link-darker">
-                  Buy
+                  Explore now
                 </a>
               </div>
             </div>
           </div>
           <div className="col-md p-0 container-col">
             <div className="hero fitness watch">
-              <div className="watch-img">
-                <img src={Watch} alt="watch-6" />
-              </div>
+                <img src={Calls} alt="calls" className="calls-img"/>
               <div className="title-offerSection">
                 <h2 className="title__heading-offer">
-                  <img className="watch-logo" src={Watch_logo} alt="watch-6" />
+                  <img className="calls-logo" src={Calls_logo} alt="calls-logo" />
                 </h2>
-                <h3 className="title__subheading-offer-watch">
-                  The future of health is on your wrist.
+                <h3 className="title__subheading-offer-calls">
+                  9 immersive calls.1 connection
                 </h3>
                 <div className="cta">
-                  <a href="#" className="cta-link">
-                    Learn more
-                  </a>
-                  <a href="#" className="cta-link">
-                    Buy
+                  <a href="#" className="cta-link white">
+                    Watch now
                   </a>
                 </div>
               </div>

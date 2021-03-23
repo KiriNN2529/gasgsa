@@ -93,6 +93,12 @@ a{
     font-size: 20px;
 }
 
+.title__subheading-offer-calls {
+    margin: 330px 0 0 0;
+    color: #ffffff;
+    font-size: 20px;
+}
+
 .title-sub-heading{
     font-size: 28px;
     font-weight: 400;
@@ -126,6 +132,7 @@ position: relative;
         right: -15px;
         top: 1px;
     }
+    font-weight: bold;
 }
 
 
@@ -174,20 +181,22 @@ width: 100%;
 .ipad__air {
     position: relative;
     height: 500px;
+    background-color: #fbfbfd;
     img {
         margin: 100px 0 0 0;
         height: auto;
     }
 }
 
+
+.fitness-img {
+    position: absolute;
+    height: 300px;
+    margin-top: 140px;
+}
+
 .fitness-container {
-    position: relative;
-    height: 500px;
-    .fitness-img {
-        position: absolute;
-        height: 500px;
-        width: auto;
-    }
+    background-color: #fbfbfd;
 }
 
 .container-col {
@@ -218,13 +227,41 @@ width: 100%;
     margin: 0 auto;
 }
 
+.music_img { 
+    height: 500px;
+    width: 100%;
+}
+
+.music_logo {
+    width: 140px;
+    margin: 0 auto;
+}
+
 .watch-logo {
     width: 100px;
     margin: 0 auto;
 }
 
-.fitness-img {
-    margin-top: 200px;
+.calls-img {
+    object-fit: cover;
+    height: 500px;
+    width: 100%;
+}
+
+.calls-logo {
+    width: 70px;
+    margin: 0 auto;
+}
+
+.airpods-logo {
+    width: 200px;
+    margin: 0 auto;
+}
+
+.title__subheading-offer-airpods {
+    font-size: 23px;
+    font-weight: bold;
+    color: #000; 
 }
 
 .action_img {
@@ -267,4 +304,12 @@ width: 100%;
 .fitness-logo{
     width: 140px;
     margin: 0 auto;
+}
+
+.women_title {
+    font-size: 30px;
+}
+
+.white {
+    color: #ffffff;
 }
