@@ -5,6 +5,8 @@ import Watch_logo from '../assets/logo/watch-6.png';
 import Fitness from "../assets/images/fitness.jpg";
 import Fitness_logo from "../assets/logo/Fitness+.png";
 import Airpods from "../assets/images/airpods.jpg";
+import Card from "../assets/images/hero_apple_card__bt4lpouoeyoi_largetall.jpg"
+import Card_logo from "../assets/logo/logo_hero__trsrpeu6koqy_large.png";
 
 const Main = () => {
   return (
@@ -63,7 +65,35 @@ const Main = () => {
           </div>
         </div>
       </section>
-      <div className="container-fluid">
+
+
+      <div className="container-fluid p-0">
+        <section className="hero">
+          <div className="title title-light">
+            <h2 className="title-heading">
+              <img src={Card_logo} alt="" />
+            </h2>
+            <h3 className="title-sub-heading">It's a leap year.</h3>
+            <p className="title-info">
+              From $41.62/mo. for 24 mo. or $999 before trade-in.2 Buy directly
+              from Apple with special carrier offers.
+            </p>
+            <div className="cta">
+              <a href="#" className="cta-link cta-link-darker">
+                Learn more
+            </a>
+              <a href="#" className="cta-link cta-link-darker">
+                Buy
+            </a>
+            </div>
+          </div>
+
+          <div className="card">
+            <img src={Card} className="img-card" alt="" />
+          </div>
+
+
+        </section>
         <div className="row margin-b-10">
           <div className="col-md margin-r-10 ipad__air p-0 container-col">
             <img src={iPad_Air} alt="ipad-air" />
@@ -110,7 +140,7 @@ const Main = () => {
           <div className="col-md  margin-r-10 fitness-container p-0 container-col">
             <div className="title-offerSection">
               <h2 className="title__heading-offer">
-              <img src={Fitness_logo} alt="" className="fitness-logo" />
+                <img src={Fitness_logo} alt="" className="fitness-logo" />
               </h2>
               <h3 className="title__subheading-offer">
                 A new fitness experience for everyone. Powered by Apple Watch
@@ -128,7 +158,7 @@ const Main = () => {
           </div>
           <div className="col-md p-0 container-col">
             <div className="hero fitness">
-                <img src={Airpods} alt="watch-6"  className="action_img"/>
+              <img src={Airpods} alt="watch-6" className="action_img" />
               <div className="title-offerSection">
                 <h2 className="title__heading-offer">
                   <img className="watch-logo" src={Watch_logo} alt="watch-6" />
