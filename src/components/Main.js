@@ -63,10 +63,9 @@ const Main = () => {
           </div>
         </div>
       </section>
-
       <div className="container-fluid">
         <div className="row margin-b-10">
-          <div className="col-md margin-r-10 ipad__air p-0">
+          <div className="col-md margin-r-10 ipad__air p-0 container-col">
             <img src={iPad_Air} alt="ipad-air" />
             <div className="title-offerSection">
               <h2 className="title__heading-offer">iPad Air</h2>
@@ -83,8 +82,8 @@ const Main = () => {
               </div>
             </div>
           </div>
-          <div className="col-md p-0">
-            <div className="hero fitness watch">
+          <div className="col-md p-0 container-col">
+            <div className="hero watch">
               <div className="watch-img">
                 <img src={Watch} alt="watch-6" />
               </div>
@@ -108,29 +107,28 @@ const Main = () => {
           </div>
         </div>
         <div className="row margin-b-10">
-          <div className="col-md  margin-r-10 fitness-img p-0">
-            <img src={Fitness} alt="fitness-img" />
+          <div className="col-md  margin-r-10 fitness-container p-0 container-col">
             <div className="title-offerSection">
-              <h2 className="title__heading-offer">iPad Air</h2>
+              <h2 className="title__heading-offer">
               <img src={Fitness_logo} alt="" className="fitness-logo" />
+              </h2>
               <h3 className="title__subheading-offer">
-                Powerful. Colorful. Wonderful
+                A new fitness experience for everyone. Powered by Apple Watch
               </h3>
               <div className="cta">
                 <a href="#" className="cta-link cta-link-darker">
                   Learn more
                 </a>
                 <a href="#" className="cta-link cta-link-darker">
-                  Buy
+                  Try it free
                 </a>
               </div>
             </div>
+            <img src={Fitness} alt="fitness-img" className="fitness-img" />
           </div>
-          <div className="col-md p-0">
+          <div className="col-md p-0 container-col">
             <div className="hero fitness">
-              <div className="airpods-img">
-                <img src={Airpods} alt="watch-6" />
-              </div>
+                <img src={Airpods} alt="watch-6"  className="action_img"/>
               <div className="title-offerSection">
                 <h2 className="title__heading-offer">
                   <img className="watch-logo" src={Watch_logo} alt="watch-6" />
@@ -151,7 +149,7 @@ const Main = () => {
           </div>
         </div>
         <div className="row margin-b-10">
-          <div className="col-md  margin-r-10 ipad__air p-0">
+          <div className="col-md  margin-r-10 ipad__air p-0 container-col">
             <img src={iPad_Air} alt="ipad-air" />
             <div className="title-offerSection">
               <h2 className="title__heading-offer">iPad Air</h2>
@@ -168,7 +166,7 @@ const Main = () => {
               </div>
             </div>
           </div>
-          <div className="col-md p-0">
+          <div className="col-md p-0 container-col">
             <div className="hero fitness watch">
               <div className="watch-img">
                 <img src={Watch} alt="watch-6" />
