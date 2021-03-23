@@ -1,4 +1,8 @@
 import React from 'react';
+import iPad_Air from '../assets/images/hero__dvsxv8smkkgi_largetall.jpg';
+import fitness from "../assets/images/fitness.jpg";
+import fitnesslogo from "../assets/logo/Fitness+.png";
+
 const Main = () => {
   return (
     <div className="Main">
@@ -56,92 +60,72 @@ const Main = () => {
           </div>
         </div>
       </section>
-      <section className="hero iPad-Air">
-        <div className="container-xl">
-          <div className="title title-light">
-            <h2 className="title-heading">iPad Air</h2>
-            <h3 className="title-sub-heading">Powerful. Colorful. Wonderful</h3>
-          </div>
-          <div className="cta">
-            <a href="#" className="cta-link cta-link-darker">
-              Learn more
-            </a>
-            <a href="#" className="cta-link cta-link-darker">
-              Buy
-            </a>
-          </div>
-        </div>
-      </section>
 
-      <div className="container-xl">
+      <div className="container-fluid">
         <div className="row">
+          <div className="col-md ipad__air">
+            <img src={iPad_Air} alt="ipad-air" />
+            <div className="title-offerSection">
+              <h2 className="title-heading">iPad Air</h2>
+              <h3 className="title-sub-heading">
+                Powerful. Colorful. Wonderful
+              </h3>
+            </div>
+            <div className="cta">
+              <a href="#" className="cta-link cta-link-darker">
+                Learn more
+              </a>
+              <a href="#" className="cta-link cta-link-darker">
+                Buy
+              </a>
+            </div>
+          </div>
           <div className="col-md">
             <section className="hero watch">
-              <div className="container">
-                <div className="title">
-                  <h2 className="title-heading"></h2>
-                  <h3 className="title-sub-heading">
-                    The future of health is on your wrist.
+
+              <div className="title-offerSection">
+
+                <h2 className="title-heading">Watch</h2>
+                <h3 className="title-sub-heading">
+                  A new fitness experience for everyone.Powered by Apple
+                  Watch.
                   </h3>
-                </div>
-                <div className="cta">
-                  <a href="#" className="cta-link">
-                    Learn more
-                  </a>
-                  <a href="#" className="cta-link">
-                    Buy
-                  </a>
-                </div>
               </div>
-            </section>
-          </div>
-          <div className="col-md">
-            <section className="hero fitness">
-              <div className="container-xl">
-                <div className="title">
-                  <h2 className="title-heading"></h2>
-                  <h3 className="title-sub-heading">
-                    A new fitness experience for everyone.Powered by Apple
-                    Watch.
-                  </h3>
-                </div>
-                <div className="cta">
-                  <a href="#" className="cta-link">
-                    Learn more
+              <div className="cta">
+                <a href="#" className="cta-link">
+                  Learn more
                   </a>
-                  <a href="#" className="cta-link">
-                    Try it free ↗
+                <a href="#" className="cta-link">
+                  Try it free ↗
                   </a>
-                </div>
               </div>
+
             </section>
           </div>
         </div>
         <div className="row">
-          <div className="col-md">
-            <section className="hero airpods">
-              <div className="container-xl">
-                <div className="title">
-                  <h2 className="title-heading"></h2>
-                  <h3 className="title-sub-heading">
-                    with Active Noise Cancellation.
+          <div className="col-md fitness">
+            <img src={fitness} alt="" className="img-fitness" />
+            <img src={fitnesslogo} alt="" className="img-fitness-logo" />
+            <div className="title-offerSection">
+              <h2 className="title-heading"></h2>
+              <h3 className="title-sub-heading">
+                A new fitness experience for everyone. Powered by Apple Watch.
                   </h3>
-                </div>
-                <div className="cta">
-                  <a href="#" className="cta-link">
-                    Watch the film
+            </div>
+            <div className="cta">
+              <a href="#" className="cta-link">
+                Learn more
                   </a>
-                  <a href="#" className="cta-link">
-                    Buy
+              <a href="#" className="cta-link">
+                Try it free
                   </a>
-                </div>
-              </div>
-            </section>
+            </div>
           </div>
           <div className="col-md">
             <section className="hero one">
-              <div className="container-xl">
-                <div className="title">
+              <div className="">
+                <div className="title-offerSection">
                   <h2 className="title-heading"></h2>
                   <h3 className="title-sub-heading">
                     Bundle up to six Apple services. And enjoy more for less.
@@ -162,8 +146,8 @@ const Main = () => {
         <div className="row">
           <div className="col-md">
             <section className="hero card">
-              <div className="container-xl">
-                <div className="title">
+              <div className="container">
+                <div className="title-offerSection">
                   <h2 className="title-heading"></h2>
                   <h3 className="title-sub-heading">
                     Save 6% on Apple products with a new Apple Card ━ all March
@@ -184,8 +168,8 @@ const Main = () => {
           </div>
           <div className="col-md">
             <section className="hero films">
-              <div className="container-xl">
-                <div className="title">
+              <div className="container">
+                <div className="title-offerSection">
                   <h2 className="title-heading"></h2>
                   <h3 className="title-sub-heading">.</h3>
                 </div>

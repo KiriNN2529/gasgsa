@@ -148,6 +148,45 @@ position: relative;
 width: 100%;
 }
 
+.ipad__air {
+    position: relative;
+    img {
+        height: 600px;
+    }
+}
+
+.title-offerSection {
+    position: absolute;
+    top: 20px;
+}
+
+.title-light {
+    color: #ffffff;
+}
+
+.fitness{
+    position: relative;
+    height: 500px;
+    
+    
+}
+
+.img-fitness{
+    margin-top: 70px;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+
+.img-fitness-logo{
+    position: absolute;
+    top: 20px;
+    margin: 0 auto;
+    left: 0;
+    right: 0;
+}
+
 .hero{
     background-position: center; 
     background-repeat: no-repeat;
@@ -158,7 +197,4 @@ width: 100%;
     border-top: none;
 }
 
-.title-light {
-    color: #ffffff;
-}
 
