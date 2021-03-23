@@ -62,8 +62,8 @@ const Main = () => {
       </section>
 
       <div className="container-fluid">
-        <div className="row">
-          <div className="col-md ipad__air p-0">
+        <div className="row margin-b-10">
+          <div className="col-md margin-r-10 ipad__air p-0">
             <img src={iPad_Air} alt="ipad-air" />
             <div className="title-offerSection">
               <h2 className="title__heading-offer">iPad Air</h2>
@@ -90,99 +90,102 @@ const Main = () => {
                   <img className="watch-logo" src={Watch_logo} alt="watch-6" />
                 </h2>
                 <h3 className="title__subheading-offer-watch">
-                  A new fitness experience for everyone.Powered by Apple Watch.
+                  The future of health is on your wrist.
                 </h3>
                 <div className="cta">
                   <a href="#" className="cta-link">
                     Learn more
                   </a>
                   <a href="#" className="cta-link">
-                    Try it free ↗
+                    Buy
                   </a>
                 </div>
               </div>
             </div>
           </div>
         </div>
-        <div className="row">
-          <div className="col-md">
-            <section className="hero airpods">
-              <div className="">
-                <div className="title">
-                  <h2 className="title-heading"></h2>
-                  <h3 className="title-sub-heading">
-                    with Active Noise Cancellation.
-                  </h3>
-                </div>
+        <div className="row margin-b-10">
+          <div className="col-md  margin-r-10 ipad__air p-0">
+            <img src={iPad_Air} alt="ipad-air" />
+            <div className="title-offerSection">
+              <h2 className="title__heading-offer">iPad Air</h2>
+              <h3 className="title__subheading-offer">
+                Powerful. Colorful. Wonderful
+              </h3>
+              <div className="cta">
+                <a href="#" className="cta-link cta-link-darker">
+                  Learn more
+                </a>
+                <a href="#" className="cta-link cta-link-darker">
+                  Buy
+                </a>
+              </div>
+            </div>
+          </div>
+          <div className="col-md p-0">
+            <div className="hero fitness watch">
+              <div className="watch-img">
+                <img src={Watch} alt="watch-6" />
+              </div>
+              <div className="title-offerSection">
+                <h2 className="title__heading-offer">
+                  <img className="watch-logo" src={Watch_logo} alt="watch-6" />
+                </h2>
+                <h3 className="title__subheading-offer-watch">
+                  The future of health is on your wrist.
+                </h3>
                 <div className="cta">
                   <a href="#" className="cta-link">
-                    Watch the film
+                    Learn more
                   </a>
                   <a href="#" className="cta-link">
                     Buy
                   </a>
                 </div>
               </div>
-            </section>
-          </div>
-          <div className="col-md">
-            <section className="hero one">
-              <div className="">
-                <div className="title">
-                  <h2 className="title-heading"></h2>
-                  <h3 className="title-sub-heading">
-                    Bundle up to six Apple services. And enjoy more for less.
-                  </h3>
-                </div>
-                <div className="cta">
-                  <a href="#" className="cta-link">
-                    Learn more
-                  </a>
-                  <a href="#" className="cta-link">
-                    Try it free
-                  </a>
-                </div>
-              </div>
-            </section>
+            </div>
           </div>
         </div>
-        <div className="row">
-          <div className="col-md">
-            <section className="hero card">
-              <div className="container">
-                <div className="title">
-                  <h2 className="title-heading"></h2>
-                  <h3 className="title-sub-heading">
-                    Save 6% on Apple products with a new Apple Card ━ all March
-                    long.*
-                  </h3>
-                  <p className="title-info">Exclusions and terms apply.</p>
-                </div>
+        <div className="row margin-b-10">
+          <div className="col-md  margin-r-10 ipad__air p-0">
+            <img src={iPad_Air} alt="ipad-air" />
+            <div className="title-offerSection">
+              <h2 className="title__heading-offer">iPad Air</h2>
+              <h3 className="title__subheading-offer">
+                Powerful. Colorful. Wonderful
+              </h3>
+              <div className="cta">
+                <a href="#" className="cta-link cta-link-darker">
+                  Learn more
+                </a>
+                <a href="#" className="cta-link cta-link-darker">
+                  Buy
+                </a>
+              </div>
+            </div>
+          </div>
+          <div className="col-md p-0">
+            <div className="hero fitness watch">
+              <div className="watch-img">
+                <img src={Watch} alt="watch-6" />
+              </div>
+              <div className="title-offerSection">
+                <h2 className="title__heading-offer">
+                  <img className="watch-logo" src={Watch_logo} alt="watch-6" />
+                </h2>
+                <h3 className="title__subheading-offer-watch">
+                  The future of health is on your wrist.
+                </h3>
                 <div className="cta">
                   <a href="#" className="cta-link">
                     Learn more
                   </a>
                   <a href="#" className="cta-link">
-                    Apply now
+                    Buy
                   </a>
                 </div>
               </div>
-            </section>
-          </div>
-          <div className="col-md">
-            <section className="hero films">
-              <div className="container">
-                <div className="title">
-                  <h2 className="title-heading"></h2>
-                  <h3 className="title-sub-heading">.</h3>
-                </div>
-                <div className="cta">
-                  <a href="#" className="cta-link">
-                    Watch now
-                  </a>
-                </div>
-              </div>
-            </section>
+            </div>
           </div>
         </div>
       </div>
