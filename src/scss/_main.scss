@@ -34,7 +34,8 @@ a{
 }
 
 .info-covid {
-    height: 50px;    
+    height: 50px; 
+    font-size: 15px;
     a {
         color: #ffffff;
         font-weight: 300px;
@@ -53,6 +54,8 @@ a{
 
 .info-onlineShop {
     height: 50px;
+    font-size: 13px;
+    font-weight: bold;
     a {
         display: flex;
         align-items: center;
@@ -75,8 +78,8 @@ a{
 }
 
 .title-heading{
-    font-size: 56px;
-    font-weight: 600;
+    font-size: 55px;
+    font-weight: bolder;
     margin-bottom: 0;
 }
 
@@ -96,15 +99,15 @@ a{
 .title__subheading-offer-calls {
     margin: 330px 0 0 0;
     color: #ffffff;
-    font-size: 20px;
+    font-size: 24px;
+    font-weight: bold;
 }
 
 .title-sub-heading{
-    font-size: 28px;
-    font-weight: 400;
+    font-size: 30px;
+    font-weight: bold;
     margin-top: 4px;
     letter-spacing: 0.130px;
-    font-weight: 400; 
     margin-bottom: 0;
 }
 
@@ -166,12 +169,14 @@ position: relative;
 }
 
 .title-info{
-    color: #86868b;
-    max-width: 500px;
     display: flex;
     justify-content: center;
     text-align: center;
+    font-size: 20px;
+    font-weight: bold;
+    max-width: 500px;
     margin-top: 10px;
+    color: #86868b;
 }
 
 .iPad-Air {
@@ -270,6 +275,16 @@ width: 100%;
     width: 100%;
 }
 
+.card_promo{
+    height: 350px;
+    margin: 0 0 10px 0;
+}
+
+.img-card{
+    height: 350px;
+    border: none;
+}
+
 .hero{
     background-position: center; 
     background-repeat: no-repeat;
@@ -287,10 +302,11 @@ width: 100%;
 // FOOTER 
 .main-info {
     color: #86868b;
-    font-weight: 400;
-    font-size: 13px;
+    font-weight: bold;
+    font-size: 15px;
+    margin: 20px 0 0 0;
     padding-bottom: 0.8em;
-        border-bottom: 1px solid #d2d2d7;
+    border-bottom: 1px solid #d2d2d7;
 }
 
 .margin-b-10{
