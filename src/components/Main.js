@@ -2,6 +2,9 @@ import React from 'react';
 import iPad_Air from '../assets/images/hero__dvsxv8smkkgi_largetall.jpg';
 import Watch from '../assets/images/watch.jpg';
 import Watch_logo from '../assets/logo/watch-6.png';
+import Fitness from "../assets/images/fitness.jpg";
+import Fitness_logo from "../assets/logo/Fitness+.png";
+import Airpods from "../assets/images/airpods.jpg";
 
 const Main = () => {
   return (
@@ -105,10 +108,11 @@ const Main = () => {
           </div>
         </div>
         <div className="row margin-b-10">
-          <div className="col-md  margin-r-10 ipad__air p-0">
-            <img src={iPad_Air} alt="ipad-air" />
+          <div className="col-md  margin-r-10 fitness-img p-0">
+            <img src={Fitness} alt="fitness-img" />
             <div className="title-offerSection">
               <h2 className="title__heading-offer">iPad Air</h2>
+              <img src={Fitness_logo} alt="" className="fitness-logo" />
               <h3 className="title__subheading-offer">
                 Powerful. Colorful. Wonderful
               </h3>
@@ -123,9 +127,9 @@ const Main = () => {
             </div>
           </div>
           <div className="col-md p-0">
-            <div className="hero fitness watch">
-              <div className="watch-img">
-                <img src={Watch} alt="watch-6" />
+            <div className="hero fitness">
+              <div className="airpods-img">
+                <img src={Airpods} alt="watch-6" />
               </div>
               <div className="title-offerSection">
                 <h2 className="title__heading-offer">
