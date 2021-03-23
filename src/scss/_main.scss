@@ -43,6 +43,12 @@ a{
     }
 }
 
+.blue {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 .info-onlineShop {
     height: 50px;
     a {
@@ -209,4 +215,13 @@ width: 100%;
 
 .title-light {
     color: #ffffff;
+}
+
+// FOOTER 
+.main-info {
+    color: #86868b;
+    font-weight: 400;
+    font-size: 13px;
+    padding-bottom: 0.8em;
+        border-bottom: 1px solid #d2d2d7;
 }
