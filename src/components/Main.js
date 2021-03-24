@@ -227,7 +227,7 @@ const Main = () => {
       </div>
       <div className="container-xl">
         <section className="main-info">
-          <span>
+          <span className="footer_text-long">
             1. Price includes a $30 AT&T, T-Mobile, Sprint, or Verizon discount.
             Requires activation with carrier. Monthly pricing: Available to
             qualified customers and requires 0% APR, 24-month installment loan
